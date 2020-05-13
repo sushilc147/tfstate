@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "jpt-state"
+  bucket = "jpt-state-1"
   # Enable versioning so we can see the full revision history of our state files
   versioning {
     enabled = true
